@@ -1,0 +1,28 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+* {box-sizing: border-box}
+
+.container {
+    padding: 16px;
+	text-align: center;
+	width:30%;
+}
+
+input[type=text], input[type=password], input[type=date] {
+   
+    padding: 15px;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus, input[type=date] {
+    background-color: #ddd;
+    outline: none;
+}
+
+textarea{
+	background: #f1f1f1;
+}
+

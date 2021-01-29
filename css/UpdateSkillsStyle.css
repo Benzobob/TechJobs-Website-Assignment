@@ -1,0 +1,8 @@
+.col-3{
+	float: left;
+}
+
+.col-6{
+	float: left;
+	display:inline;
+}
